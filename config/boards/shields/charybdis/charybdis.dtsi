@@ -26,17 +26,7 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5)  RC(3,6) RC(3,7) RC(3,8) RC(3,9)
     };
 
     kscan0: kscan {
-      compatible = "zmk,kscan-gpio-matrix";
-      wakeup-source;
-      label = "KSCAN";
       diode-direction = "row2col";
-      row-gpios
-        = <&gpio0 31 GPIO_ACTIVE_HIGH>
-        , <&gpio1 15 GPIO_ACTIVE_HIGH>
-        , <&gpio0 24 GPIO_ACTIVE_HIGH>
-        , <&gpio0 22 GPIO_ACTIVE_HIGH>
-        , <&gpio1 6  GPIO_ACTIVE_HIGH>
-      ;
     };
 
     charybdis_6col_layout: charybdis_6col_layout {
