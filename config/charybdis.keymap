@@ -53,10 +53,10 @@
             bindings = <
 &kp TAB     &kp N1      &kp N2      &kp N3       &kp N4        &kp N5       &kp N6          &kp N7           &kp N8       &kp N9           &kp N0            &kp EQUAL
 &gresc      &kp Q       &kp W       &kp F        &kp P         &kp B        &kp E           &kp I            &kp U        &kp Y            &kp SINGLE_QUOTE  &kp MINUS
-&sk LSHIFT  &mt LGUI A  &mt LALT R  &mt LCTRL S  &mt LSHIFT T  &kp G        &kp M           &mt RSHIFT H     &mt RCTRL J  &mt RIGHT_ALT K  &mt LGUI L        &kp SEMI
+&sk LSHIFT  &mt LGUI A  &mt LALT R  &mt LCTRL S  &mt LSHIFT T  &kp G        &kp M           &mt RSHIFT H     &mt RCTRL J  &mt RALT K       &mt LGUI L        &kp SEMI
 &kp SLASH   &kp Z       &kp X       &kp C        &kp D         &kp V        &kp O           &kp N            &kp COMMA    &kp DOT          &kp BACKSLASH     &kp PRINTSCREEN
                                     &kp LGUI     &lt 1 SPACE   &lt 3 TAB    &lt 5 DELETE    &lt 4 BACKSPACE
-                                                 &mkp LCLK     &mkp RCLK    &lt 2 KP_ENTER
+                                                 &mkp LCLK     &mkp RCLK    &lt 2 ENTER
             >;
         };
 
