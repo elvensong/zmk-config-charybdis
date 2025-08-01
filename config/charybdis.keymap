@@ -11,7 +11,9 @@
     chosen { zmk,matrix_transform = &default_transform; };
 };
 
-&mtl {
+mtl: mtl {
+    compatible = "zmk,behavior-mod-morph";
+    label = "MTL";
     tapping-term-ms = <280>;
     quick-tap-ms = <175>;
     global-quick-tap;
@@ -22,7 +24,9 @@
 };
 
 
-&mtr {
+mtr: mtr {
+    compatible = "zmk,behavior-mod-morph";
+    label = "MTR";
     tapping-term-ms = <280>;
     quick-tap-ms = <175>;
     global-quick-tap;
