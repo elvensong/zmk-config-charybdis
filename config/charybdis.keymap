@@ -45,8 +45,8 @@
         };
 
         
-		mtl: mt {
-				compatible = "zmk,behavior-mod-morph";
+		mtl: mod_tap {
+				compatible = "zmk,behavior-hold-tap";
 				tapping-term-ms = <280>;
 				quick-tap-ms = <175>;
 				global-quick-tap;
@@ -56,9 +56,8 @@
 				hold-trigger-on-release;
 		};
         
-		mtr: mt {
-				compatible = "zmk,behavior-mod-morph";
-				label = "MTR";
+		mtr: mod_tap {
+				compatible = "zmk,behavior-hold-tap";
 				tapping-term-ms = <280>;
 				quick-tap-ms = <175>;
 				global-quick-tap;
